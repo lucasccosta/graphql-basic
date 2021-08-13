@@ -2,7 +2,7 @@ import { ApolloServer, PubSub } from 'apollo-server';
 import mongoose from 'mongoose';
 
 function startServer({typeDefs, resolvers}){
-  mongoose.connect("mongodb+srv://localamdmin:localamdmin@localcluster.3yt5n.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"), {
+, {
     useNewUrlParser: true,
     useUnifiedTopology: true
   }
